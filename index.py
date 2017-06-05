@@ -32,3 +32,20 @@ for province in provinces:
 person = {'name':'fyales','age':26}
 for i in person:
 	print person[i]
+
+def fab(max):
+	n,a,b = 0,0,1
+	while n < max :
+		yield b
+		print b
+		a,b = b,a + b
+		n = n + 1
+
+f = fab(5)
+f.next()
+f.next()
+f.next()
+f.next()
+f.next()
+f.next()
+
