@@ -2,7 +2,7 @@ class SimpleSet:
 
     def __init__(self,values=None):
         s1 = SimpleSet()
-        s2 = SimpleSet([1,2,3,4])
+        s2 = Simp([1,2,3,4])
         self.dict = {}
         if values is not None:
             for value in values:
